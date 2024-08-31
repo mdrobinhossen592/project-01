@@ -8,7 +8,7 @@
     <!-- fave icon -->
     <link rel="icon" href="./images/fave-icon.png">
     <!-- owl-carousel  -->
-     <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <!-- google fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -19,10 +19,10 @@
         rel="stylesheet">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <!-- slick slider css -->
+     <link rel="stylesheet" href="./css/slick.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -35,7 +35,9 @@
                 <!-- site logo area start -->
                 <div class="logo ">
                     <picture>
-                        <img src="./images/logo.png" alt="logo (2).png" loading="lazy" class="img-fluid w-100">
+                        <a href="./index.html">
+                            <img src="./images/logo.png" alt="logo (2).png" loading="lazy" class="img-fluid w-100">
+                        </a>
                     </picture>
                 </div>
                 <!-- site logo area end -->
@@ -73,7 +75,7 @@
 
                     <!-- header contact_btn start -->
                     <div class="contact_btn">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </div>
                     <!-- header contact_btn end -->
                 </div>
@@ -89,7 +91,9 @@
                 <div class="row bannar_content">
                     <div class="col-lg-7 bannar_text">
                         <h5>Welcome to my world</h5>
-                        <h1>Hi, I’m <span>Robin Hosen </span> <span>a </span> Developer.</h1>
+
+                        <h1 class="typed_wrap">Hi, I’m <strong>Robin Hosen </strong> <strong>a </strong> <span class="type"></span></h1>
+
                         <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each
                             and every interaction. I’m not adding motion just to spruce things up, but doing it in ways
                             that.</p>
@@ -574,7 +578,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-between work">
-                        <h2>I'm available for freelance work <span><i class="fa-solid fa-minus"></i></span></h2>
+                        <h2>I'm available for freelance work <span class="dash"></span></h2>
                         <a href="#">contact me</a>
                     </div>
                 </div>
@@ -594,252 +598,253 @@
                     </div>
                 </div>
 
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
 
-                        <!-- 1st item -->
-                        <div class="carousel-item active">
-                            <div class="row justify-content-evenly testimonial_slider">
-
-                                <div class="col-lg-4">
-                                    <div class="card client_grid">
-                                        <div class="client_image">
-                                            <img src="./images/final-home--1st.png" class="card-img-top"
-                                                alt="final-home--1st.png">
-                                        </div>
-
-                                        <div class="card-body client_grid_inner_body p-0">
-                                            <h5 class="card-title">Rainbow-Themes</h5>
-                                            <h3>Nevine Acotanza</h3>
-                                            <p class="card-text">Chief Operating Officer</p>
-                                        </div>
-                                    </div>
+                <div class="sliders">
+                    <div class="row justify-content-evenly testimonial_slider">
+                        <div class="col-lg-4">
+                            <div class="card client_grid">
+                                <div class="client_image">
+                                    <img src="./images/final-home--1st.png" class="card-img-top"
+                                        alt="final-home--1st.png">
                                 </div>
-
-                                <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
-                                    <div class="quote">
-                                        <span><i class="fa-light fa-quote-right"></i></span>
-                                    </div>
-
-                                    <div class="card_descriptions">
-                                        <div class="title_area d-flex justify-content-between align-items-center">
-                                            <div class="title">
-                                                <h4>Android App Development</h4>
-                                                <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
-                                            </div>
-                                            <div class="reviwe">
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                            </div>
-                                        </div>
-                                        <!-- <hr> -->
-
-                                        <div class="discription">
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
-                                                smauris</p>
-                                        </div>
-                                    </div>
+    
+                                <div class="card-body client_grid_inner_body p-0">
+                                    <h5 class="card-title">Rainbow-Themes</h5>
+                                    <h3>Nevine Acotanza</h3>
+                                    <p class="card-text">Chief Operating Officer</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- 2nd item -->
-                        <div class="carousel-item">
-                            <div class="row justify-content-evenly testimonial_slider">
-                                <div class="col-lg-4">
-                                    <div class="card client_grid">
-                                        <div class="client_image">
-                                            <img src="./images/final-home--2nd.png" class="card-img-top"
-                                                alt="final-home--2nd.png">
-                                        </div>
-                                        <div class="card-body client_grid_inner_body p-0">
-                                            <h5 class="card-title">Rainbow-Themes</h5>
-                                            <h3>Nevine Acotanza</h3>
-                                            <p class="card-text">Chief Operating Officer</p>
-                                        </div>
+    
+                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                            <div class="quote">
+                                <span><i class="fa-light fa-quote-right"></i></span>
+                            </div>
+    
+                            <div class="card_descriptions">
+                                <div class="title_area d-flex justify-content-between align-items-center">
+                                    <div class="title">
+                                        <h4>Android App Development</h4>
+                                        <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
+                                    </div>
+                                    <div class="reviwe">
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
-                                    <div class="quote">
-                                        <span><i class="fa-light fa-quote-right"></i></span>
-                                    </div>
-
-                                    <div class="card_descriptions">
-                                        <div class="title_area d-flex justify-content-between align-items-center">
-                                            <div class="title">
-                                                <h4>Android App Development</h4>
-                                                <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
-                                            </div>
-                                            <div class="reviwe">
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                            </div>
-                                        </div>
-                                        <!-- <hr> -->
-
-                                        <div class="discription">
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
-                                                smauris</p>
-                                        </div>
-                                    </div>
+                                <!-- <hr> -->
+    
+                                <div class="discription">
+                                    <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
+                                        smauris</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- 3rd item -->
-                        <div class="carousel-item">
-                            <div class="row justify-content-evenly testimonial_slider">
-                                <div class="col-lg-4">
-                                    <div class="card client_grid">
-                                        <div class="client_image">
-                                            <img src="./images/final-home--3rd.png" class="card-img-top"
-                                                alt="final-home--3rd.png">
-                                        </div>
-                                        <div class="card-body client_grid_inner_body p-0">
-                                            <h5 class="card-title">Rainbow-Themes</h5>
-                                            <h3>Nevine Acotanza</h3>
-                                            <p class="card-text">Chief Operating Officer</p>
-                                        </div>
-                                    </div>
+                    <!-- item2 -->
+                    <div class="row justify-content-evenly testimonial_slider">
+
+                        <div class="col-lg-4">
+                            <div class="card client_grid">
+                                <div class="client_image">
+                                    <img src="./images/final-home--2nd.png" class="card-img-top"
+                                        alt="final-home--2nd.png">
                                 </div>
-
-                                <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
-                                    <div class="quote">
-                                        <span><i class="fa-light fa-quote-right"></i></span>
-                                    </div>
-
-                                    <div class="card_descriptions">
-                                        <div class="title_area d-flex justify-content-between align-items-center">
-                                            <div class="title">
-                                                <h4>Android App Development</h4>
-                                                <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
-                                            </div>
-                                            <div class="reviwe">
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                            </div>
-                                        </div>
-                                        <!-- <hr> -->
-
-                                        <div class="discription">
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
-                                                smauris</p>
-                                        </div>
-                                    </div>
+    
+                                <div class="card-body client_grid_inner_body p-0">
+                                    <h5 class="card-title">Bound - Trolola</h5>
+                                    <h3>Jone Duone Joe</h3>
+                                    <p class="card-text">Operating Officer</p>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- 4th item -->
-                        <div class="carousel-item">
-                            <div class="row justify-content-evenly testimonial_slider">
-                                <div class="col-lg-4">
-                                    <div class="card client_grid">
-                                        <div class="client_image">
-                                            <img src="./images/final-home--4th.png" class="card-img-top"
-                                                alt="final-home--4th.png">
-                                        </div>
-                                        <div class="card-body client_grid_inner_body p-0">
-                                            <h5 class="card-title">Rainbow-Themes</h5>
-                                            <h3>Nevine Acotanza</h3>
-                                            <p class="card-text">Chief Operating Officer</p>
-                                        </div>
+    
+                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                            <div class="quote">
+                                <span><i class="fa-light fa-quote-right"></i></span>
+                            </div>
+    
+                            <div class="card_descriptions">
+                                <div class="title_area d-flex justify-content-between align-items-center">
+                                    <div class="title">
+                                        <h4>Web App Development</h4>
+                                        <p>Upwork - Mar 4, 2016 - Aug 30, 2024</p>
+                                    </div>
+                                    <div class="reviwe">
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
                                     </div>
                                 </div>
-
-                                <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
-                                    <div class="quote">
-                                        <span><i class="fa-light fa-quote-right"></i></span>
-                                    </div>
-
-                                    <div class="card_descriptions">
-                                        <div class="title_area d-flex justify-content-between align-items-center">
-                                            <div class="title">
-                                                <h4>Android App Development</h4>
-                                                <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
-                                            </div>
-                                            <div class="reviwe">
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                            </div>
-                                        </div>
-                                        <!-- <hr> -->
-
-                                        <div class="discription">
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
-                                                smauris</p>
-                                        </div>
-                                    </div>
+                                <!-- <hr> -->
+    
+                                <div class="discription">
+                                    <p>Important fact to nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales.Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- 5th item -->
-                        <div class="carousel-item">
-                            <div class="row justify-content-evenly testimonial_slider">
-                                <div class="col-lg-4">
-                                    <div class="card client_grid">
-                                        <div class="client_image">
-                                            <img src="./images/final-home--5th.png" class="card-img-top"
-                                                alt="final-home--5th.png">
-                                        </div>
-                                        <div class="card-body client_grid_inner_body p-0">
-                                            <h5 class="card-title">Rainbow-Themes</h5>
-                                            <h3>Nevine Acotanza</h3>
-                                            <p class="card-text">Chief Operating Officer</p>
-                                        </div>
+                    <!-- item 3 -->
+                    <div class="row justify-content-evenly testimonial_slider">
+
+                        <div class="col-lg-4">
+                            <div class="card client_grid">
+                                <div class="client_image">
+                                    <img src="./images/final-home--3rd.png" class="card-img-top"
+                                        alt="final-home--3rd.png">
+                                </div>
+    
+                                <div class="card-body client_grid_inner_body p-0">
+                                    <h5 class="card-title">Glassfisom</h5>
+                                    <h3>Nevine Dhawan</h3>
+                                    <p class="card-text">CEO Of Officer</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                            <div class="quote">
+                                <span><i class="fa-light fa-quote-right"></i></span>
+                            </div>
+    
+                            <div class="card_descriptions">
+                                <div class="title_area d-flex justify-content-between align-items-center">
+                                    <div class="title">
+                                        <h4>Android App Design</h4>
+                                        <p>Fiver - Mar 4, 2015 - Aug 30, 2021</p>
                                     </div>
-                                </div>z
-
-                                <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
-                                    <div class="quote">
-                                        <span><i class="fa-light fa-quote-right"></i></span>
+                                    <div class="reviwe">
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
                                     </div>
+                                </div>
+                                <!-- <hr> -->
+    
+                                <div class="discription">
+                                    <p>
+                                        No more question for design. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                        .
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                    <div class="card_descriptions">
-                                        <div class="title_area d-flex justify-content-between align-items-center">
-                                            <div class="title">
-                                                <h4>Android App Development</h4>
-                                                <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
-                                            </div>
-                                            <div class="reviwe">
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                                <span><i class="fa-solid fa-star"></i></span>
-                                            </div>
-                                        </div>
-                                        <!-- <hr> -->
+                    <!-- items 4 -->
+                    <div class="row justify-content-evenly testimonial_slider">
 
-                                        <div class="discription">
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
-                                                hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus
-                                                smauris</p>
-                                        </div>
+                        <div class="col-lg-4">
+                            <div class="card client_grid">
+                                <div class="client_image">
+                                    <img src="./images/final-home--4th.png" class="card-img-top"
+                                        alt="final-home--4th.png">
+                                </div>
+    
+                                <div class="card-body client_grid_inner_body p-0">
+                                    <h5 class="card-title">NCD - Design</h5>
+                                    <h3>Mevine Thoda</h3>
+                                    <p class="card-text">Marketing Officer</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                            <div class="quote">
+                                <span><i class="fa-light fa-quote-right"></i></span>
+                            </div>
+    
+                            <div class="card_descriptions">
+                                <div class="title_area d-flex justify-content-between align-items-center">
+                                    <div class="title">
+                                        <h4>CEO - Marketing</h4>
+                                        <p>Thoda Department - Mar 4, 2018 - Aug 30, 2021</p>
                                     </div>
+                                    <div class="reviwe">
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <!-- <hr> -->
+    
+                                <div class="discription">
+                                    <p>
+                                        
+                                        Marcent Of Vanice and treatment. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                        .
+                                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item 5 -->
+                    <div class="row justify-content-evenly testimonial_slider">
+
+                        <div class="col-lg-4">
+                            <div class="card client_grid">
+                                <div class="client_image">
+                                    <img src="./images/final-home--5th.png" class="card-img-top"
+                                        alt="final-home--5th.png">
+                                </div>
+    
+                                <div class="card-body client_grid_inner_body p-0">
+                                    <h5 class="card-title">Default name</h5>
+                                    <h3>Davei Luace</h3>
+                                    <p class="card-text">Chief Operating Manager</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                            <div class="quote">
+                                <span><i class="fa-light fa-quote-right"></i></span>
+                            </div>
+    
+                            <div class="card_descriptions">
+                                <div class="title_area d-flex justify-content-between align-items-center">
+                                    <div class="title">
+                                        <h4>Android App Development</h4>
+                                        <p>via Upwork - Mar 4, 2015 - Aug 30, 2021</p>
+                                    </div>
+                                    <div class="reviwe">
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <!-- <hr> -->
+    
+                                <div class="discription">
+                                    <p>
+                                        
+                                        When managment is so important. Ut tincidunt est ac dolor aliquam
+                                        sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris
+                                        hendrerit ante. Ut tincidunt est ac dolor aliquam sodales phasellus smauris
+                                        .
+                                    
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -850,7 +855,7 @@
         <!-- testimonial section end -->
 
         <!-- Our Client section start  -->
-         <section id="our_best_clirnt">
+        <section id="our_best_clirnt">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -929,16 +934,296 @@
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
         <!-- Our Client section end  -->
 
+        <!-- price section start -->
+        <section id="price">
+            <div class="container">
+                <hr>
+                <div class="row justify-content-between" style="padding: 100px 0;">
+                    <div class="col-lg-4 price_title_area">
+                        <h5>Pricing</h5>
+                        <h3>Our Pricing</h3>
+                        <p>Use the free templates with your whole team or choose a premium. ith your whole team or
+                            choose a premium.</p>
+                        <p>Get the bundle and get lifetime support and one year updates.</p>
+                    </div>
 
+                    <div class="col-lg-4 priceing_table">
+                        <h5>STARTER</h5>
+                        <p>Try and decide.</p>
+                        <h3>$0</h3>
+                        <ul>
+                            <li> <span><i class="fa-regular fa-check"></i></span>2 demo templates.</li>
+                            <li> <span><i class="fa-regular fa-check"></i></span>Fully responsive.</li>
+                            <li> <span><i class="fa-regular fa-xmark"></i></span> Figma</li>
+                            <li> <span><i class="fa-regular fa-xmark"></i></span> Spacial offer</li>
+                            <li> <span><i class="fa-regular fa-xmark"></i></span> All Demoes</li>
+                        </ul>
+
+                        <a class="" href="#">buy now</a>
+                    </div>
+
+                    <div class="col-lg-4 priceing_table table_2">
+                        <h5>BUNDLE</h5>
+                        <p>Try and decide.</p>
+                        <h3>$60</h3>
+                        <ul>
+                            <li> <span><i class="fa-regular fa-check"></i></span>2 demo templates.</li>
+                            <li> <span><i class="fa-regular fa-check"></i></span>Fully responsive.</li>
+                            <li> <span><i class="fa-regular fa-check"></i></span> Figma</li>
+                            <li> <span><i class="fa-regular fa-check"></i></span> Spacial offer</li>
+                            <li> <span><i class="fa-regular fa-check"></i></span> All Demoes</li>
+                        </ul>
+
+                        <a class="" href="#">buy now</a>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <!-- price section end -->
+
+        <!-- blog section start  -->
+        <section id="blog">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 blog_title_area">
+                        <h5>Latest Updates</h5>
+                        <h3>From My Blog</h3>
+                        <p>We offer high quality products for competitive prices. Our main goal is customer satisfaction
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center blog_grid">
+                    <div class="col-lg-4 blog_item_img p-0">
+                        <a href="#">
+                            <img src="./images/blog1.jpg" alt="blog1.jpg" loading="lazy" class="img-fluid w-100">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-5 blog_item_title">
+                        <h5>
+                            <a href="#">Web Design</a>
+                        </h5>
+                        <h3>
+                            <a href="#">How to create simple personal website</a>
+                        </h3>
+                        <p>August 30, 2024</p>
+                    </div>
+
+                    <div class="col-lg-3 blog_item_btn">
+                        <a href="#">Full Story</a>
+                    </div>
+                </div>
+
+                <div class="row align-items-center blog_grid">
+                    <div class="col-lg-4 blog_item_img p-0">
+                        <a href="#">
+                            <img src="./images/blog2.jpg" alt="blog2.jpg" loading="lazy" class="img-fluid w-100">
+                        </a>
+                    </div>
+
+                    <div class="col-lg-5 blog_item_title">
+                        <h5>
+                            <a href="#">Development</a>
+                        </h5>
+                        <h3>
+                            <a href="#">What is mobile app and web design</a>
+                        </h3>
+                        <p>August 22, 2024</p>
+                    </div>
+
+                    <div class="col-lg-3 blog_item_btn">
+                        <a href="#">Full Story</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 text-center more_btn">
+                        <a href="#">
+                            learn more
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog section end -->
+
+        <!-- contact section start -->
+        <section id="contact">
+            <div class="container">
+                <hr>
+                <div class="row">
+                    <div class="col-lg-12 blog_title_area contact_title">
+                        <h5>Latest Updates</h5>
+                        <h3>From My Blog</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6  contact_designation">
+                        <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and
+                            8:00 p.m. ET, Monday through Friday</p>
+                        <ul>
+
+                            <li>
+                                <p>Call me</p>
+                                <a href="tel:+880 13169-57642">+880 13169-57642</a>
+                            </li>
+
+                            <li>
+                                <p>Email</p>
+                                <a href="mailto:hello@robin.com">hello@robin.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 contact_form">
+                        <form action="#" method="post">
+                            <input type="text" placeholder="Your Name"><br>
+                            <input type="email" placeholder="Your Email"><br>
+                            <input type="tel" placeholder="Your Name"><br>
+                            <textarea name="" id="" rows=10" cols="40" placeholder="Your message here"></textarea>
+                            <button class="submit_btn" type="submit">
+                                Submit Your Message
+                                <span><i class="fa-solid fa-paper-plane"></i></span>
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
     </main>
 
+    <!-- footer ssction start -->
+    <footer>
+        <section id="footer_area">
+            <div class="container">
+                <hr>
+                <div class="row" style="padding: 100px 0;">
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="vol-lg-12 footer_logo">
+                                <a href="#">
+                                    <img src="./images/logo.png" alt="logo.png">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="media">
+                                    <span>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-facebook">
+                                                <path
+                                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-instagram">
+                                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                            </svg>
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-linkedin">
+                                                <path
+                                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                </path>
+                                                <rect x="2" y="9" width="4" height="12"></rect>
+                                                <circle cx="4" cy="4" r="2"></circle>
+                                            </svg>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col lg-4">
+                        <div class="footer_items_heading">
+                            <h5>product</h5>
+
+                            <ul>
+                                <li><a href="#">Database</a></li>
+                                <li><a href="#">Authentication</a></li>
+                                <li><a href="#">Storage</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col lg-4">
+                        <div class="footer_items_heading">
+                            <h5>Resources</h5>
+
+                            <ul>
+                                <li><a href="#">Authentication</a></li>
+                                <li><a href="#">System Status</a></li>
+                                <li><a href="#">Terms of service</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">over right</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col lg-4">
+                        <div class="footer_items_heading">
+                            <h5>Developers</h5>
+
+                            <ul>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Authentication</a></li>
+                                <li><a href="#">API Reference</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Open Source</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center copy_right_area">
+                            <hr>
+                            <p>&copy;  All rights reserved by [Robin Hosen]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer ssction end -->
 
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
 
     <!--all js start -->
     <!-- jqujquery library file -->
@@ -954,6 +1239,12 @@
 
     <!-- bootstrap js -->
     <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- type js -->
+    <script src="./js/typed.min.js"></script>
+
+    <!-- slick slider js -->
+    <script src="./js/slick.min.js"></script>
 
     <!-- main js -->
     <script src="./js/script.js"></script>
