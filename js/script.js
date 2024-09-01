@@ -31,7 +31,7 @@ contentType: 'html',
 // 2en type js start
 document.addEventListener('DOMContentLoaded', function(){
   Typed.new('.dash', {
-    strings: ["_", "", "", ""],
+    strings: ["_", "", "", "_"],
     stringsElement: null,
 // typing speed
 typeSpeed: 20,
@@ -47,7 +47,7 @@ loop: true,
 // show cursor
 showCursor: false,
 // character for cursor
-cursorChar: "|",
+cursorChar: "_",
 // attribute to type (null == text)
 attr: null,
 // either html or text

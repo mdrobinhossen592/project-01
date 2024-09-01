@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -42,15 +43,23 @@
                 </div>
                 <!-- site logo area end -->
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="bars">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
                 </button>
 
                 <!-- main menu area start -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse  menu_area" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main_menu">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link"href="#">
+                                <img src="./images/logo.png" alt="logo.png">
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -329,24 +338,21 @@
         <!--  Choose section a start -->
         <sectin id="choose">
             <div class="container">
-                <div class="row justify-content-between" style="margin-bottom: 70px;">
+                <div class="row justify-content-between choose_all_item">
                     <div class="col-lg-8 ps-0 choose_title">
                         <h5>Why Choose Us</h5>
                         <h3>Maximizing Your Online Presence Digital Marketing Mastery</h3>
                     </div>
-                    <div class="col-lg-3 pe-0 ">
-                        <div class="card choose_grid" style="width: 308px;">
+                    <div class="col-lg-3 pe-0 order_item_one">
+                        <div class="card choose_grid">
                             <div class="card-body choose_grid_body">
                                 <h5 class="card-title choose_grid_title">Clean Code</h5>
-                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> Digital of the
-                                    day Mobile app excellence</p>
+                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> <strong>Digital of the day Mobile app excellence</strong></p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row justify-content-between">
-                    <div class="col-lg-5 p-0 welcome_text">
+                    <div class="col-lg-5 p-0 welcome_text order_item_two">
                         <p>Welcome to our digital agency! We specialize in helping businesses like yours succeed online.
                             From website design and development to digital marketing and advertising, we have the tools.
                             From website design and development to digital marketing and advertising, we have the
@@ -358,24 +364,26 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 pe-0 ">
-                        <div class="card choose_grid" style="width: 308px;">
+                    <div class="col-lg-3 pe-0 order_item_three">
+                        <div class="card choose_grid">
                             <div class="card-body choose_grid_body">
                                 <h5 class="card-title choose_grid_title">Clean Code</h5>
-                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> Digital of the
-                                    day Mobile app excellence</p>
+                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> <strong>Digital of the day Mobile app excellence</strong></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 pe-0 ">
-                        <div class="card choose_grid" style="width: 308px;">
+                    <div class="col-lg-3 pe-0 order_item_four">
+                        <div class="card choose_grid" >
                             <div class="card-body choose_grid_body">
                                 <h5 class="card-title choose_grid_title">Clean Code</h5>
-                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> Digital of the
-                                    day Mobile app excellence</p>
+                                <p class="card-text choose_grid_text"><span>Award Winning Quality</span> <strong>Digital of the day Mobile app excellence</strong></p>
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="row justify-content-between quality_two">
+                    
                 </div>
             </div>
         </sectin>
@@ -616,7 +624,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                        <div class="col-lg-6 client_comment d-flex align-content-end">
                             <div class="quote">
                                 <span><i class="fa-light fa-quote-right"></i></span>
                             </div>
@@ -665,7 +673,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                        <div class="col-lg-6 client_comment d-flex align-content-end">
                             <div class="quote">
                                 <span><i class="fa-light fa-quote-right"></i></span>
                             </div>
@@ -711,7 +719,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                        <div class="col-lg-6 client_comment d-flex align-content-end">
                             <div class="quote">
                                 <span><i class="fa-light fa-quote-right"></i></span>
                             </div>
@@ -762,7 +770,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                        <div class="col-lg-6 client_comment d-flex align-content-end">
                             <div class="quote">
                                 <span><i class="fa-light fa-quote-right"></i></span>
                             </div>
@@ -815,7 +823,7 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-6 p-0 client_comment d-flex align-content-end">
+                        <div class="col-lg-6 client_comment d-flex align-content-end">
                             <div class="quote">
                                 <span><i class="fa-light fa-quote-right"></i></span>
                             </div>
@@ -1059,8 +1067,8 @@
                 <hr>
                 <div class="row">
                     <div class="col-lg-12 blog_title_area contact_title">
-                        <h5>Latest Updates</h5>
-                        <h3>From My Blog</h3>
+                        <h5>Get in Touch</h5>
+                        <h3>Connect with Me with Confidence</h3>
                     </div>
                 </div>
 
@@ -1106,10 +1114,10 @@
         <section id="footer_area">
             <div class="container">
                 <hr>
-                <div class="row" style="padding: 100px 0;">
+                <div class="row footer_content" >
                     <div class="col-lg-4">
                         <div class="row">
-                            <div class="vol-lg-12 footer_logo">
+                            <div class="col-lg-12 footer_logo">
                                 <a href="#">
                                     <img src="./images/logo.png" alt="logo.png">
                                 </a>
@@ -1118,7 +1126,7 @@
 
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="media">
+                                <div class="media footer_media">
                                     <span>
                                         <a href="#">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -1223,7 +1231,7 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
 
     <!--all js start -->
     <!-- jqujquery library file -->

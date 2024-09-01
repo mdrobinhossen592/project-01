@@ -55,6 +55,14 @@ header {
     gap: 32px;
 }
 
+.main_menu li:nth-child(1){
+    visibility: hidden !important;
+    opacity: 0 !important;
+    display: none !important;
+}
+.main_menu li:nth-child(1) a{}
+.main_menu li:nth-child(1) a img{}
+
 .main_menu li a {
     font-size: 13px;
     line-height: 19.5px;
@@ -602,7 +610,9 @@ header {
     padding: 100px 0;
     background: #ecf0f3;
 }
-
+.choose_all_item {
+    margin-bottom: 70px;
+}
 .choose_title {}
 
 .choose_title h5 {
@@ -626,6 +636,7 @@ header {
     box-shadow: rgb(209, 217, 230) 5px 5px 15px 0px, rgb(255, 255, 255) -5px -5px 15px 0px;
     border: none;
     background: #fff;
+    width: 308px;
 }
 
 .choose_grid_body {
@@ -659,6 +670,12 @@ header {
     height: 1px;
     width: 35px;
     background: #f9004d;
+}
+.choose_grid_text strong {
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 600 ;
+    color: #3c3e41;
 }
 
 .welcome_text {
@@ -1647,7 +1664,9 @@ header {
 #footer_area {
     background: #ecf0f3;
 }
-
+.footer_content{
+    padding: 100px 0;
+}
 .footer_logo {
     width: 200px;
     margin-bottom: 35px;
